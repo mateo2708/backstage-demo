@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: izzy-store
+  description: Specialized Sports E-Commerce
+  tags:
+    - shopify
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: izzy-dev
